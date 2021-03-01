@@ -282,7 +282,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 485110411}
   m_Father: {fileID: 258656944}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -423,7 +424,6 @@ RectTransform:
   - {fileID: 40647671}
   - {fileID: 938124275}
   - {fileID: 108429342}
-  - {fileID: 485110411}
   - {fileID: 1680212143}
   - {fileID: 1278444107}
   m_Father: {fileID: 0}
@@ -525,16 +525,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485110410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 258656944}
-  m_RootOrder: 5
+  m_Father: {fileID: 108429342}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -651.9, y: -41.212}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 382.39838, y: 179.657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485110412
@@ -931,8 +931,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 971210565}
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 1670261418}
+        m_MethodName: OnPressHigher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1394,7 +1394,7 @@ RectTransform:
   m_Children:
   - {fileID: 723361521}
   m_Father: {fileID: 258656944}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1444,8 +1444,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 971210565}
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 1670261418}
+        m_MethodName: OnPressLower
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1523,6 +1523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   max: 1000
   min: 1
+  guessText: {fileID: 485110412}
 --- !u!4 &1670261419
 Transform:
   m_ObjectHideFlags: 0
@@ -1569,7 +1570,7 @@ RectTransform:
   m_Children:
   - {fileID: 1170606546}
   m_Father: {fileID: 258656944}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
