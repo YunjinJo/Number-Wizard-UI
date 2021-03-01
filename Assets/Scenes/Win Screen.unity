@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 743698840}
   - component: {fileID: 743698839}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Play Again Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -406,8 +406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -325, y: -83.32}
-  m_SizeDelta: {x: 296.46265, y: 125.23331}
+  m_AnchoredPosition: {x: -325, y: -110.4}
+  m_SizeDelta: {x: 296.46265, y: 179.30826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743698839
 MonoBehaviour:
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 1716682520}
   - component: {fileID: 1716682519}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Play Again
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Play again?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 1936362376}
   - component: {fileID: 1936362375}
   m_Layer: 5
-  m_Name: Wizard Rick
+  m_Name: Wizard Ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8ff96982a82586c41adf5c8879d9bb9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f42716296287c6444a6a180b3dd56123, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
